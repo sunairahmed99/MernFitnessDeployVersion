@@ -17,9 +17,10 @@
     ],
     "functions": {
         "api/**/*.js": {
-          "memory": 1024,      // Memory in MB
-          "maxDuration": 60    // Timeout in seconds
-        },
+          "memory": 1024,      
+          "maxDuration": 30    
+        }
+      },
     "routes": [
       {
        
