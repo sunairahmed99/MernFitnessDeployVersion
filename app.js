@@ -16,11 +16,8 @@ app.use(express.static(path.resolve(__dirname,'build')))
 
 app.use(cors())
 app.use(express.json())
+
 app.use('/Users', express.static('./Multer/images/Users'))
-
-
-
-
 app.use('/user',UserRouter)
 app.use('/workout', WorkoutRouter)
 app.use('/nutrition', NutritionRouter)
