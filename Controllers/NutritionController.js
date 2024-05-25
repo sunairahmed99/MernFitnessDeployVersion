@@ -1,5 +1,5 @@
 const tryCatch = require("../Utils/tryCatch");
-const Nutrition = require("../ModelS/NutritionSchema");
+const Nutrition = require("../Models/NutritionSchema");
 
 exports.Nutritioncreate = tryCatch(async (req, res, next) => {
   const nutrition = await Nutrition.create({
